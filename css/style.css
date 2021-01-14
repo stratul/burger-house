@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+/* ======== GLOBAL CSS START ======== */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	width: 100%;
+}
+
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+/* ======== GLOBAL CSS END ======== */
+
+/* ======== HEADER SECTION START ======== */
+
+header{
+	background-image: url(../images/bg.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.nav{
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-bar{
+	text-align: right;
+	margin: 10px 0;
+}
+
+.top-bar span{
+	color: #3d2514;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.top-bar img{
+	vertical-align: middle;
+	width: auto;
+}
+
+.nav-menu ul li{
+	display: inline-block;
+}
+
+.nav-menu ul li a{
+	margin-left: 30px;
+	color: #3d2514;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+/* ======== HEADER SECTION START ======== */
+
+/* ======== BANNER SECTION START ======== */
+
+.banner{
+	display: flex;
+	align-items: center;
+	height: auto;
+}
+
+.banner-content p{
+	color: #3d2514;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 24px;
+	border: 2px dashed #3d2514;
+    padding: 10px;
+    width: fit-content;
+}
+
+.banner-content h2{
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 114px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	text-shadow: 5px 5px #ffffff7a;
+	width: fit-content;
+}
+
+.banner-content h4{
+	color: #3d2514;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	text-shadow: 5px 5px #ffffff7a;
+	width: fit-content;
+}
+
+/* ======== BANNER SECTION END ======== */
+
+/* ======== FOOD BANNER SECTION START ======== */
+
+.food-banner-section{
+	padding: 65px;
+}
+
+.food-banner{
+	display: flex;
+}
+
+.left{
+	position: relative;
+	margin-right: 45px;
+}
+
+.right-top{
+	margin-bottom: 28px;
+	position: relative;
+}
+
+.right-bottom{
+	position: relative;
+}
+
+.food-des{
+	position: absolute;
+	top: 25px;
+    left: 25px;
+}
+
+.food-des h2{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.food-des h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	font-weight: normal;
+	color: #fff;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+/* ======== FOOD BANNER SECTION END ======== */
+
+/* ======== BURGER MENU START ======== */
+
+.menu-content{
+	text-align: center;
+}
+
+.menu-content a{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #3d2514;
+	padding: 10px 25px;
+    background: #ffc045;
+}
+
+.menu-content h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	color: #3d2514;
+	text-transform: uppercase;
+	padding: 30px 0;
+}
+
+.menu-content p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+	line-height: 24px;
+}
+
+.menu-items{
+	display: flex;
+	text-align: center;
+	align-items: flex-end;
+	margin: 0 -15px;
+	padding: 30px 0 50px 0;
+}
+
+.menu-item-content h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 38px;
+	color: #3d2514;
+	text-transform: uppercase;
+}
+
+.menu-item-content p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #3d2514;
+	line-height: 24px;
+	padding: 15px 0 30px 0;
+}
+
+.menu-item-content a{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 10px 20px;
+    background: #bf2222;
+}
+
+/* ======== BURGER MENU START ======== */
+
+/* ======== EVENT SECTION START ======== */
+
+.event{
+    margin: 70px 0 40px 0;
+}
+
+.event-section{
+	display: flex;
+    width: 100%;
+    padding: 25px;
+    box-shadow: 10px 10px 28px #d8d8d8;
+    justify-content: space-between;
+}
+
+.event-content{
+	width: 50%;
+	padding: 30px;
+}
+
+.event-content h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	color: #3d3d3d;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.event-content h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 38px;
+	color: #3d2514;
+	text-transform: uppercase;
+}
+
+.event-content p{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #3d3d3d;
+    line-height: 30px;
+    padding: 25px 0 40px 0;
+}
+
+.event-image{
+	width: 45%;
+}
+
+/* ======== EVENT SECTION END ======== */
+
+/* ======== BOOKING SECTION START ======== */
+
+.booking-section{
+	background-image: url(../images/burger-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.booking-table{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding: 120px 0 450px 0;
+}
+
+.booking-table h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.booking-table h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 42px;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom: 50px;
+}
+
+.booking-table form input{
+    width: 43%;
+    padding: 15px;
+    margin: 0 15px 30px 0;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3d3d3d;
+    border: 1px solid #bebebe;
+    background: transparent;
+	border-radius: 5px;
+	outline: none;
+}
+
+.booking-table form .button{
+	width: 47%;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	background: #bf2222;
+	cursor: pointer;
+}
+
+/* ======== BOOKING SECTION END ======== */
+
+/* ======== FOOTER SECTION START ======== */
+
+footer{
+	margin: -100px 0 50px 0;
+}
+
+footer .container{
+	background-image: url(../images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 50px;
+}
+
+.footer-left{
+	width: 70%;
+}
+
+.footer-left img{
+	width: auto;
+}
+
+.footer-left p{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    padding: 25px 0 120px 0;
+}
+
+.footer-left span{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.footer-right{
+	width: 30%;
+	display: inline-block;
+}
+
+.contact{
+	margin: 120px 0;
+}
+
+.contact img{
+	width: auto;
+	vertical-align: middle;
+}
+
+.contact span{
+	color: #fff;
+	margin-left: 30px;
+	vertical-align: middle;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+}
+
+.location{
+	margin-bottom: 20px;
+}
+
+.social-icon{
+	text-align: right;
+}
+
+.social-icon img{
+	width: auto;
+	padding-left: 10px;
+}
+
+/* ======== FOOTER SECTION END ======== */
