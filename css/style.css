@@ -9,6 +9,7 @@ font-family: 'Montserrat', sans-serif;*/
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 li{
@@ -24,7 +25,8 @@ img{
 }
 
 .container{
-	width: 1140px;
+	max-width: 1140px;
+	width: 80%;
 	margin: auto;
 }
 
@@ -40,7 +42,7 @@ header{
 }
 
 .nav{
-	padding: 20px 0;
+	padding: 10px 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -48,7 +50,7 @@ header{
 
 .top-bar{
 	text-align: right;
-	margin: 10px 0;
+	padding: 30px 0 0 0;
 }
 
 .top-bar span{
@@ -64,7 +66,9 @@ header{
 	vertical-align: middle;
 	width: auto;
 }
-
+.nav-menu ul{
+	text-align: right;
+}
 .nav-menu ul li{
 	display: inline-block;
 }
@@ -84,8 +88,13 @@ header{
 
 .banner{
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
+	justify-content: space-between;
 	height: auto;
+}
+.banner-content{
+	width: 50%;
 }
 
 .banner-content p{
@@ -116,22 +125,26 @@ header{
 	text-shadow: 5px 5px #ffffff7a;
 	width: fit-content;
 }
+.banner-img{
+	width: 50%;
+}
 
 /* ======== BANNER SECTION END ======== */
 
 /* ======== FOOD BANNER SECTION START ======== */
 
 .food-banner-section{
-	padding: 65px;
+	padding: 100px 0;
 }
 
 .food-banner{
 	display: flex;
+	justify-content: space-between;
 }
 
 .left{
 	position: relative;
-	margin-right: 45px;
+	margin-right: 40px;
 }
 
 .right-top{
@@ -201,14 +214,13 @@ header{
 .menu-items{
 	display: flex;
 	text-align: center;
-	align-items: flex-end;
-	margin: 0 -15px;
-	padding: 30px 0 50px 0;
+	align-items: baseline;
+	padding: 70px 0 80px 0;
 }
 
 .menu-item-content h3{
 	font-family: 'Bebas Neue', cursive;
-	font-size: 38px;
+	font-size: 30px;
 	color: #3d2514;
 	text-transform: uppercase;
 }
@@ -314,11 +326,16 @@ header{
 	letter-spacing: 5px;
 	margin-bottom: 50px;
 }
+.booking-table form {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
 
 .booking-table form input{
-    width: 43%;
+    width: 48%;
     padding: 15px;
-    margin: 0 15px 30px 0;
+	margin-bottom: 25px;
     font-size: 20px;
     font-family: 'Bebas Neue', cursive;
     color: #3d3d3d;
@@ -329,7 +346,7 @@ header{
 }
 
 .booking-table form .button{
-	width: 47%;
+	width: 48%;
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 20px;
 	text-transform: uppercase;
@@ -356,11 +373,12 @@ footer .container{
 }
 
 .footer-left{
-	width: 70%;
+	width: 65%;
 }
 
 .footer-left img{
 	width: auto;
+	max-width: 100%;
 }
 
 .footer-left p{
@@ -379,7 +397,7 @@ footer .container{
 }
 
 .footer-right{
-	width: 30%;
+	width: 35%;
 	display: inline-block;
 }
 
@@ -405,7 +423,7 @@ footer .container{
 }
 
 .social-icon{
-	text-align: right;
+	text-align: left;
 }
 
 .social-icon img{

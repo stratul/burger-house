@@ -1,0 +1,127 @@
+@media screen and (max-width: 1250px){
+    .banner-content h2{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 920px){
+    .container {
+        width: 90%;
+    }
+    .banner-content h2{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .banner-content h4{
+        display: inline-block;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 560px){
+    .container {
+        width: 95%;
+    }
+    .banner-content h2{
+        margin-right: 0px;
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .food-banner{
+        flex-direction: column;
+    }
+    .left{
+        margin-right: 0px;
+        margin-bottom: 28px;
+    }
+    .booking-table{
+        width: 85%;
+        padding: 80px 0 200px 0;
+    }
+}
+@media screen and (max-width: 700px){
+    .menu-content h1{
+        font-size: 35px;
+    }
+    .menu-items{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 0px;
+    }
+    .menu-item-content{
+        margin-bottom: 50px;
+    }
+    .booking-table form {
+        flex-direction: column;
+    }
+    .booking-table form input{
+        width: 100%;
+    }
+    
+    .booking-table form .button{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 1280px){
+    .event-content h1{
+        font-size: 30px;
+    }
+    .event-content p{
+        font-size: 16px;
+        line-height: 25px;
+        padding: 15px 0 40px 0;
+    }
+}
+@media screen and (max-width: 1000px){
+
+    .event-section{
+        flex-direction: column;
+    }
+    .event-content{
+        width: 100%;
+        padding: 30px;
+    }
+    .event-image{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .event-content p{
+        padding: 15px 0 20px 0;
+    }
+}
+@media screen and (max-width: 1200px){
+    .footer-left{
+        width: 60%;
+        padding-right: 20px;
+    }
+    .footer-right{
+        width: 40%;
+    }    
+}
+@media screen and (max-width: 800px){
+    .nav-menu ul li a{
+        margin-left: 15px;
+    }
+    footer .container{
+        flex-direction: column;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right{
+        width: 100%;
+    }    
+    .footer-left p{
+        padding: 25px 0 40px 0;
+    }
+    .contact{
+        margin: 30px 0;
+    }
+}
